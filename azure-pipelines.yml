@@ -26,6 +26,4 @@ steps:
     scriptLocation: inlineScript
     inlineScript: |
         echo "Start using terraform to create MongoDB Atlas cluster"
-        terraform init
-        terraform apply -auto-approve
         echo "Finish creating MongoDB"
